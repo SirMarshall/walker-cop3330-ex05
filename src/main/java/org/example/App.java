@@ -14,12 +14,14 @@ public class App
         Scanner input = new Scanner(System.in);
         int numOne, numTwo;
 
+        //Number Querying
         System.out.println("What is the first number?");
         numOne = input.nextInt();
 
         System.out.println("What is the second number?");
         numTwo = input.nextInt();
 
+        //Final output
         System.out.println(numOne + " + " + numTwo + " = " + (numOne+numTwo) + '\n' + numOne + " - " + numTwo + " = " + (numOne-numTwo) + '\n' + numOne + " * " + numTwo + " = " + (numOne*numTwo) + '\n' + numOne + " / " + numTwo + " = " + (numOne/numTwo));
     }
 }
